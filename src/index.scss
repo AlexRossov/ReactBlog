@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.adminButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.footer {
+  text-align: center;
+  color: #ccc;
+  margin-top: 40px;
+  padding: 10px;
+  border-top: solid #ccc 1px;
+}
+
+.fullPost {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.descPost {
+  margin-top: 40px;
+}
+
+.imgPost {
+  width: 100%;
+}
+
+.imgAbout {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.loginForm {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 30px 0;
+}
+
+.buttonLogout {
+  margin-left: 5px;
+}
