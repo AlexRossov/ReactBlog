@@ -17,7 +17,7 @@ export const updatePost = (fields) => ({
 
 export const getPosts = () => (dispatch) => {
   axios
-    .get('https://6245592d7701ec8f725097cb.mockapi.io/posts')
+    .get('/assets/db.json')
     .then((res) => {
       dispatch({
         type: 'ADD_START_POSTS',
